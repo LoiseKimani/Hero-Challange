@@ -21,4 +21,7 @@ class PowersController < ApplicationController
 
     private 
 
+    def power_params
+      params.permit(:name, :description)
+    end
 end
