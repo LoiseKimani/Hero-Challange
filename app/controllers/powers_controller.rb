@@ -19,4 +19,6 @@ class PowersController < ApplicationController
         end
     end
 
+    private 
+
 end
