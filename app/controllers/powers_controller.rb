@@ -4,7 +4,7 @@ class PowersController < ApplicationController
         render json: power
     end
 
-     def  show
+    def  show
      power = Power.find(params[:id])
      render json: power
     end
